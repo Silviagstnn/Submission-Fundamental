@@ -1,0 +1,42 @@
+@import 'appbar.css';
+@import 'clublist.css';
+@import 'searchbar.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+}
+
+.home{
+  width: 1100px;;
+  margin-left: -20%;
+ 
+
+}
+
+.home > img{
+  width: 1100px;;
+}
+
+.home > h3{
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.home > p {
+  text-align: justify;
+  text-indent: 45px;
+
+}
